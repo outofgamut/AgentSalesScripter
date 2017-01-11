@@ -62,15 +62,16 @@ getCampaignById(id: number): Campaign {
 //   getCampaigns(): Promise<Campaign[]>{
 //   	return Promise.resolve(CAMPAIGNDATA);
 //   }
-// }
 
-const CAMPAIGNDATA: Campaign[] = [
-  {id: 1, name: 'Mercury', phoneNumber: 58 },
-  {id: 2, name: 'Venus', phoneNumber: 108 },
-  {id: 3, name: 'Earth', phoneNumber: 150 },
-  {id: 4, name: 'Mars', phoneNumber: 228 },
-  {id: 5, name: 'Jupiter', phoneNumber: 778 },
-  {id: 6, name: 'Saturn', phoneNumber: 886 },
-  {id: 7, name: 'Uranus', phoneNumber: 1800 },
-  {id: 8, name: 'Neptune', phoneNumber: 2800 }
-];
+// const CAMPAIGNDATA: Campaign[] = [
+//   {id: 1, name: 'Mercury', phoneNumber: 58 },
+//   {id: 2, name: 'Venus', phoneNumber: 108 },
+//   {id: 3, name: 'Earth', phoneNumber: 150 },
+//   {id: 4, name: 'Mars', phoneNumber: 228 },
+//   {id: 5, name: 'Jupiter', phoneNumber: 778 },
+//   {id: 6, name: 'Saturn', phoneNumber: 886 },
+//   {id: 7, name: 'Uranus', phoneNumber: 1800 },
+//   {id: 8, name: 'Neptune', phoneNumber: 2800 }
+// ];
+
+}
