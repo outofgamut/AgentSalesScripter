@@ -1,0 +1,19 @@
+<section class="salesapp">
+  <header class="header">
+    <h1>Campaigns</h1>
+    <input class="new-campaign" placeholder="New campaign?" autofocus="" [(ngModel)]="newCampaign.name" (keyup.enter)="addCampaign()">
+  </header>
+  <section class="main" *ngIf="campaigns.length > 0">
+    <ul class="campaign-list">
+      <li *ngFor="let campaign of campaigns">
+        <div class="view">
+          <label>{{campaign.name}}</label>
+          <button class="destroy" (click)="removeCampaign(campaign)"></button>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer" *ngIf="campaigns.length > 0">
+    <span class="todo-count"><strong>{{campaigns.length}}</strong> {{campaigns.length == 1 ? 'item' : 'items'}} left</span>
+  </footer>
+</section>
